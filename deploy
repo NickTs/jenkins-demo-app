@@ -1,12 +1,11 @@
 #!/bin/sh
 ssh dev@18.202.244.160 <<EOF
- cd /projects
+ cd ./projects/jenkins-demo-app
  git pull
  npm install --production
  pm2 restart all
  exit
 EOF
-
 
 
 
