@@ -6,8 +6,3 @@ ssh dev@108.128.149.166 <<EOF
  pm2 restart all
  exit
 EOF
-
-
-
-
-
